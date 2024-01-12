@@ -1,0 +1,44 @@
+.container{
+    display: block;
+}
+.header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    background-color: purple;
+    height: 60px;
+    color: white;
+    margin-top: 30px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input input{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+}
+.input button{
+    margin-left: 150px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid green;
+    color: green;
+}
+.input button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+.result p{
+    margin-left: 100px;
+    font-size: 20px;
+    font-style: italic;
+
+}

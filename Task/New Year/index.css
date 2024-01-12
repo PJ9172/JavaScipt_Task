@@ -1,0 +1,42 @@
+.container{
+    display: block;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size : 80% 250%;
+    /* background-position: right; */
+}
+.timer{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}.timer:hover{
+    color: yellow;
+}
+
+.css{
+    display: none;
+    font-size: 40px;
+    font-family: 'Algerian';
+    color: white;
+    text-align: center;
+    position:relative;
+    animation:animatebottom 1s
+}
+.css h4:hover{
+    color: yellow;
+}
+.css .image{
+    display: flex;
+    justify-content: space-around;
+}
+.css .image img{
+    width: 350px;
+}
+@keyframes animatebottom
+{
+    from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}
+}

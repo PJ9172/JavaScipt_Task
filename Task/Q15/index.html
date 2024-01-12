@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Center</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lottery Center</h1>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Enter Amount . . ." id="input">
+            <button onclick="confirm()" id="button">Confirm</button>
+        </div>
+        <div class="inputboxes">
+            <span>Enter your Lottery number : </span>
+            <input type="number" maxlength="1" class="inbox">
+            <input type="number" maxlength="1" class="inbox">
+            <input type="number" maxlength="1" class="inbox">
+            <input type="number" maxlength="1" class="inbox">
+            <button onclick="generate()">Generate Number</button>
+        </div>
+        <div class="outputboxes">
+            <span style="margin-left: -100px;">Lottery Number : </span>
+            <input type="number" class="outbox">
+            <input type="number" class="outbox">
+            <input type="number" class="outbox">
+            <input type="number" class="outbox">
+        </div>
+        <center>
+            <img src="https://cdn.dribbble.com/users/427368/screenshots/10855800/wof-r.gif" alt="" id="img">
+        </center>
+        <div class="win" id="win">
+            <span>Winning Amount : 0</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

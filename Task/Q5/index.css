@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-around;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+body{
+    background-color: rgb(245, 205, 132);
+}

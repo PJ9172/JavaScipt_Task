@@ -1,0 +1,125 @@
+.container{
+    display: block;
+    color: white;
+}
+body{
+    background-color: #24212B;
+}
+.header{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.input{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input input{
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.input button{
+    margin-left: 100px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    width: 80px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+}
+
+
+
+
+.inputboxes{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.inputboxes span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.inputboxes input{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inputboxes button{
+    margin-left: 40px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.inputboxes button:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.5s;   
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.outputboxes{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.outputboxes span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.outputboxes input{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+img{
+    width: 30%;
+    height: 30%;
+    margin-top: 30px;
+    display: none;
+}
+
+.win{
+    margin-top: 30px;
+    display: none;
+    text-align: center; 
+}
+.win span{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+#inbox{
+    maxlength: 1;
+}
