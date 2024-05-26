@@ -1,0 +1,50 @@
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+body{
+    background-color: black;
+}
+.box{
+    padding: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(160, 160, 160);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #414141;
+}
+.profile{
+    display: block;
+    margin-top: 10px;
+}
+.profile img{
+    border-radius: 100%;
+}
+hr{
+    border: 1px solid #464646;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 30px;
+    padding-left: 20px;  
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    /* background-image: url('https://avatars.githubusercontent.com/u/147395950?v=4'); */
+    background-size: cover;
+    border-radius: 50%;
+}
+.img:hover{
+    cursor: pointer;
+    border-radius: 20%;
+    transition: 0.5s;
+    width: 110px;
+    height: 110px;
+}

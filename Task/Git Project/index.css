@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+.container{
+    display: block;
+}
+.searchdiv{
+    display: block;
+    align-items: center;
+    margin-top: 60px;
+}
+.searchdiv input{
+    height: 25px;
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 5px;
+}
+.searchdiv input:focus{
+    outline: none;
+}
+.searchdiv button{
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    border-radius:20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 5px #414141;
+}
+.searchdiv button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.resultdiv{
+    /* border: 0.5px solid #414141; */
+    border-radius: 9px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 3px 5px #414141;
+    margin-top: 60px;
+    width: 60%;
+    height: 390px;
+    display: none;
+}
+.profile{
+    width: 40%;
+    /* border: 1px solid green; */
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(165, 165, 165);
+}
+.pic{
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid yellow; */
+    border-radius: 80%;
+    margin-top: 20px;
+    /* background-image: url("https://avatars.githubusercontent.com/u/147252354?v=4"); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 8px 10px #292929;
+}
+.info{
+    text-align: justify;
+    margin-left: 40px;
+    line-height: 10px;
+    margin-top: 40px;
+}
+.repo{
+    display: block;
+    overflow: auto;
+    width: 60%;
+}
+.box{
+    height: 100px;
+    border: 1px solid grey;
+    width: 400px;
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #292929;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    /* height: 320px; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #707070; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: whitesmoke; 
+  }
+
+
+.row1{
+    height: 50%;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.row2{
+    height: 50%;
+    /* padding-top: 15px; */
+    padding-left: 40px;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(141, 141, 141);
+    color: black;
+    font-weight: bolder;
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-radius: 10px;
+}
